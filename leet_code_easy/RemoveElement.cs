@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 
 // Given an integer array nums and an integer val, remove all occurrences of val in nums in-place.
 // The order of the elements may be changed. Then return the number of elements in nums which are not equal
@@ -33,13 +32,6 @@ namespace leet_code_easy
             }
 
             return k;
-        }
-
-        public static void Main()
-        {
-            int[] arr = { 0, 1, 3, 0, 2, 2, 4, 2 };
-            var val = 2;
-            Console.WriteLine(RemoveElementFromList(arr, val));
         }
     }
 }
