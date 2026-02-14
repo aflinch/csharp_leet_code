@@ -12,6 +12,10 @@ namespace leet_code_easy
             
             String s = "[()(]{}";
             Console.WriteLine(ValidParentheses.IsValid(s));
+            
+            String haystack = "sadbutsad";
+            String needle = "sad";
+            Console.WriteLine(FindIndexOfFirstOccurence.StrStr(haystack, needle));
         }
     }
 }
