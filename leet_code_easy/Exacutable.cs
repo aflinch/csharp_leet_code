@@ -16,6 +16,9 @@ namespace leet_code_easy
             String haystack = "sadbutsad";
             String needle = "sad";
             Console.WriteLine(FindIndexOfFirstOccurence.StrStr(haystack, needle));
+
+            String words = "   fly me   to   the moon  ";
+            Console.WriteLine(LengthLastWord.LengthOfLastWord(words));
         }
     }
 }

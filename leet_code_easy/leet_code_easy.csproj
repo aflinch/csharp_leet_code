@@ -43,6 +43,7 @@
         <Compile Include="BinaryTreeInorder.cs" />
         <Compile Include="Exacutable.cs" />
         <Compile Include="FindIndexOfFirstOccurence.cs" />
+        <Compile Include="LengthLastWord.cs" />
         <Compile Include="RemoveElement.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="ValidParentheses.cs" />
