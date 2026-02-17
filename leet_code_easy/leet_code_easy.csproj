@@ -46,6 +46,7 @@
         <Compile Include="LengthLastWord.cs" />
         <Compile Include="RemoveElement.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="StackUsingQueues.cs" />
         <Compile Include="ValidParentheses.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>

@@ -19,6 +19,20 @@ namespace leet_code_easy
 
             String words = "   fly me   to   the moon  ";
             Console.WriteLine(LengthLastWord.LengthOfLastWord(words));
+            
+            Console.WriteLine("Stack Using Queues");
+            StackUsingQueues st = new StackUsingQueues();
+            st.Push(1);
+            st.Push(2);
+            st.Push(3);
+        
+            Console.WriteLine(st.Top());
+            st.Pop();
+            Console.WriteLine(st.Top());
+            st.Pop();
+            Console.WriteLine(st.Top());
+        
+            Console.WriteLine(st.Empty());
         }
     }
 }
